@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abhaya Libre" "Oleo Script";
+}
+
+body {
+  background: #d7a999;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #d7a999;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 50px;
+  color: #3c3d2d;
+  font-weight: 600;
+  font-family: "Oleo Script";
+  text-decoration: none;
+}
+
+.nav-1 :active {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  font-family: "Abhaya Libre";
+  transition: 0.3s;
+}
+
+.nav-2 {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  font-family: "Abhaya Libre";
+  transition: 0.3s;
+}
+
+.nav-3 :active {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  font-family: "Abhaya Libre";
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  font-family: "Abhaya Libre";
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+.Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.Home-content {
+  max-width: 600px;
+}
+
+.Home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.Home-content p {
+  font-size: 30px;
+  color: #3a2715;
+}
+
+.Contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+}
+
+.Contact-content {
+  max-width: 600px;
+}
+
+.Contact-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #823939;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.Contact-content p {
+  font-size: 30px;
+  color: #3a2715;
+}
